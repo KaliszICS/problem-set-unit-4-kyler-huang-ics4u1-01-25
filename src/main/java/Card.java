@@ -125,6 +125,7 @@ class Card {
 
 		Card other = (Card) otherCard;
 	    
+		//return true if it's equal
 	    return this.name.equals(other.name) && 
 		this.suit.equals(other.suit) && 
 		this.value == other.value;

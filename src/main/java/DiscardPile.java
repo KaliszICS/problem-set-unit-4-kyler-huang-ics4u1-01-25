@@ -120,8 +120,12 @@ class DiscardPile {
             placeHolder = currentCard.getName() + " of " + currentCard.getSuit();
 
             if (i < pile.size() - 1){
+
+                // this is for when theres still text after it
                 placeHolder = placeHolder + ", ";
             } else {
+
+                // this is for when theres no more text after it
                 placeHolder = placeHolder + ".";
             }
         }
