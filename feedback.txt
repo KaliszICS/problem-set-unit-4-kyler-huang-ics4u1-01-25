@@ -1,0 +1,13 @@
+K(30%): 100%
+I(30%): 89%
+C(10%): 100%
+A(30%): 95%
+95.2%
+
+Card should allow values of any number (or at least any positive number).  Games may require more diverse values than 1-13
+Methods that do not do anything when given invalid values should throw exceptions (add for instance).  Constructors should also filter through provided data for the user (remove the null values).
+DiscardPile toString only ever shows 1 card.
+No space after age in Player toString method.
+Don't use break in a method when there is no code left.  Just return.
+Make sure your output for your program makes sense and looks proper.  Age input goes down a line and is very awkward.
+Otherwise a lot of good work!
